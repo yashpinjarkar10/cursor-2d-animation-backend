@@ -32,6 +32,7 @@ temp_folder/
 # ChromaDB / RAG artifacts (HF Spaces blocks these binaries in git)
 chroma_db_manim/
 **/*.sqlite3
+
 **/*.sqlite
 **/*.db
 **/*.bin
