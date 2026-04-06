@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+uv.lock
+node_modules
+
+# environments
+.env
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+
+# OS / misc
+.DS_Store
+
+# Project outputs
+out/
+media/
+generated_videos/
+temp_folder/
+
+#AI instruction files
+task.md
+walkthrough.md.resolved
+
+# TESTING
+test_output/
+test*

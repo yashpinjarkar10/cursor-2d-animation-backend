@@ -1,0 +1,29 @@
+# Prevent secrets and local dev files from being sent to the Docker daemon
+.env
+.env.*
+
+# VCS
+.git
+.git/
+
+# Virtual environments
+.venv
+.venv/
+
+# Python caches
+__pycache__
+__pycache__/
+*.py[cod]
+
+# Manim outputs / local artifacts
+media
+media/
+generated_videos
+generated_videos/
+*.mp4
+
+# Editor/OS cruft
+.vscode
+.vscode/
+.DS_Store
+Thumbs.db
