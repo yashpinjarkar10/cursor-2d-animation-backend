@@ -6,6 +6,10 @@
 .git
 .git/
 
+# CI
+.github
+.github/
+
 # Virtual environments
 .venv
 .venv/
